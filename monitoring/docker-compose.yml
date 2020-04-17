@@ -79,7 +79,7 @@ services:
   grafana:
     image: grafana/grafana:4.4.1
     expose:
-      - 3000
+      - 3002
     volumes:
       - ../storage/grafana:/var/lib/grafana
     restart: always
